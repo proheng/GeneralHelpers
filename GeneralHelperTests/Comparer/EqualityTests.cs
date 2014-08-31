@@ -18,6 +18,11 @@ namespace GeneralHelperTests.Comparer
             int defaultInt = new int();
             Assert.True(Equality.EqualsDefaultValue<int>(defaultInt));
 
+            double defaultDouble = new double();
+            Assert.True(Equality.EqualsDefaultValue<double>(defaultDouble));
+
+
+
             DateTime defaultDateTime = new DateTime();
             Assert.True(Equality.EqualsDefaultValue<DateTime>(defaultDateTime));
 
